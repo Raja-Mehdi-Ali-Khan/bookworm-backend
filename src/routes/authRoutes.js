@@ -54,7 +54,7 @@ router.post("/register", async (req,res)=>{
          console.log("Error in register route", error);
          res.status(500).json({message: "Internal server error"});
     }
-    res.send("register");
+    // res.send("register");
 });
 
 router.post("/login", async (req,res)=>{
